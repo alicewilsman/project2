@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<style>
+    body {
+        background-color: #e6f7f4;
+    }
+    a:hover {
+        color: lightskyblue;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    .site-title {
+        position: absolute;
+        left: 502px;
+        width: 200px;
+        height: 80px;
+        top: 50px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 64px;
+
+
+        color: #000000;
+    }
+    .menu {
+        position: absolute;
+        width: 80px;
+        height: 20px;
+        left: 410px;
+        top: 175px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+
+        color: #000000;
+    }
+    .catering {
+        position: absolute;
+        width: 80px;
+        height: 20px;
+        left: 610px;
+        top: 175px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+
+        color: #000000;
+    }
+    .gallery {
+        position: absolute;
+        width: 80px;
+        height: 20px;
+        left: 510px;
+        top: 175px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+
+        color: #000000;
+    }
+    .about {
+        position: absolute;
+        width: 80px;
+        height: 30px;
+        left: 710px;
+        top: 175px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 16px;
+
+        color: #000000;
+    }
+    .spacer {
+        height: 200px;
+    }
+    .img-01 {
+        position: absolute;
+        left: 110px;
+        top: 220px;
+        width: 1000px;
+    }
+    .mediterranian {
+        position: absolute;
+        left: 410px;
+        top: 1000px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 48px;
+        text-align: center;
+    }
+    .sandwiches {
+        position: absolute;
+        left: 470px;
+        top: 1100px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 36px;
+        text-align: center;
+    }
+    .salad-and-fries {
+        position: absolute;
+        left: 485px;
+        top: 1180px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 13px;
+        text-align: center;
+    }
+    .sandwiches-left {
+        width: 200px;
+
+        position: absolute;
+        left: 250px;
+        top: 1225px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+    .sandwiches-price-left {
+        width: 25px;
+
+        position: absolute;
+        left: 475px;
+        top: 1225px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+    .sandwiches-right {
+         width: 200px;
+
+         position: absolute;
+         left: 600px;
+         top: 1225px;
+
+         font-family: arial, sans-serif;
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 18px;
+         text-align: left;
+         line-height: 400%;
+     }
+    .sandwiches-price-right {
+        width: 25px;
+
+        position: absolute;
+        left: 825px;
+        top: 1225px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+    .small-plates {
+        position: absolute;
+        left: 470px;
+        top: 1600px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 36px;
+        text-align: center;
+    }
+    .platter-comes-with {
+        position: absolute;
+        left: 370px;
+        top: 1695px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 13px;
+        text-align: center;
+        width: 400px
+    }
+    .small-plate-left {
+        width: 200px;
+
+        position: absolute;
+        left: 250px;
+        top: 1740px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+    .small-plate-price-left {
+        width: 25px;
+
+        position: absolute;
+        left: 475px;
+        top: 1740px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+    .small-plate-right {
+        width: 200px;
+
+        position: absolute;
+        left: 600px;
+        top: 1740px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+    .small-plate-price-right {
+        width: 25px;
+
+        position: absolute;
+        left: 825px;
+        top: 1740px;
+
+        font-family: arial, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: left;
+        line-height: 400%;
+    }
+
+</style>
+<body>
+<a href="index-1.html" class="site-title">Mim's</a>
+<a href="index-2.html" class="menu">Menu</a>
+<a href="index-3.html" class="gallery">Gallery</a>
+<a href="index-4.html" class="catering">Catering</a>
+<a href="idex-5.html" class="about">About</a>
+<img class="img-01" src="o-1.jpg">
+
+<div class="spacer"></div>
+
+<h2 class="mediterranian">Mediterranean</h2>
+<h3 class="sandwiches">Sandwiches</h3>
+<p class="salad-and-fries">Add salad or fries for $1.00</p>
+
+<div class=sandwiches-left>
+    Shawarma <br>
+    Muraf <br>
+    Falafel <br>
+    Kufta Kabob
+</div>
+
+<div class="sandwiches-price-left">$6.95 $5.95 $4.95 $5.95</div>
+
+<div class=sandwiches-right>
+    Shish Kabob <br>
+    Chicken Kabob <br>
+    Veggie Kabob <br>
+    Tilapia
+</div>
+
+<div class="sandwiches-price-right">$6.95 $5.95 $4.95 $5.95</div>
+
+<h3 class="small-plates">Small Plates</h3>
+<div class="platter-comes-with">Platter comes with a choice of rice, pita and hummus, baba ganoug and etccccc.........
+    Add salad or fries for $1.00</div>
+
+<div class="small-plate-left">
+    Shawarma <br> Muraf <br> Falafel <br>
+    Kafta Kabob
+</div>
+
+<div class="small-plate-price-left">$8,48 $7.48 $5.61 $7.48</div>
+
+<div class="small-plate-right">Shish Kabob <br> Chicken Kabob <br> Veggie Kabob <br> Tilapia</div>
+
+<div class="small-plate-price-right">$8.48 $7.48 $5.95 $7.48</div>
+
+<h3 class="platters">Platters</h3>
+<div class="platters-come-with"></div>
+</body>
+</html>
